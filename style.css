@@ -1,0 +1,295 @@
+*{margin:0px;
+  font-family:gabriola;}
+.header-content{
+    display:flex;
+    height:60px;
+   
+}
+.header-content div{
+    margin:auto;
+    font-size:20px;
+    font-family:cambria;
+    text-align:center;
+}
+.header-branch{
+     display:flex;
+     background-color:black;
+     color:white;
+     height:190px;
+     font-family:gabriola;
+}
+.present{
+     font-size:50px;
+     position:relative;
+     left:30px;
+     top:40px;
+    
+}
+.order{
+     
+     font-size:30px;
+     margin-top:40px;
+	 position:absolute;
+     right:10%;
+     background-color:black;
+     
+}
+.order a{
+     display:flex;
+     text-decoration:none;
+      color:white;
+      border:2px solid white;
+      padding:15px;
+      position:sticky;
+}
+p{
+    text-align:center;
+
+}
+.luck{
+     width:200px;
+     height:100px;
+     margin-top:20px;
+     margin-left:29%;
+    
+}
+
+.numb{
+     text-decoration:line-through;
+     margin-right:20px;
+}
+.price{
+     display:flex;;
+     justify-content:center;
+     border:1px solid black;
+     margin-top:20px;
+     color:black;
+     
+     
+}
+.flex{
+     display:flex;
+}
+
+.line{
+     display:grid;
+     grid-template-columns:1fr 1fr 1fr;
+     background-color:lightgrey;
+
+}
+
+.grid-1{
+     background-color:;
+     
+}
+
+.grid-2{
+     background-color:white;
+     color:black ;
+     margin:20px;
+     border:1px solid black;
+     padding:20px;
+     font-size:20px;
+     
+}
+
+.grid-3{
+     background-color:black;
+     
+}
+.container{
+     display:grid;
+     grid-template-columns:40% auto;
+     grid-template-rows:200px auto 40px; 
+     grid-template-areas: "top top"
+                          "mid sid"
+                          "bow bow";   
+}
+
+.content-1{
+     background-color:black;
+     grid-area:top;
+}
+
+.content-2{
+     background-color:white;
+     grid-area:mid;
+}
+
+.content-3{
+     background-color:yellow;
+     grid-area:sid;
+     margin-left:500px;
+     font-size:30px;
+     height:60px;
+}
+
+.content-4{
+     background-color:black;
+     grid-area:bow;
+}
+.reach{
+     font-size:20px;
+     color:white;
+}
+
+.head{
+     text-align:center;
+}
+.link{
+  text-decoration:none;
+  margin-left:10px;
+  color:grey;
+  font-size:30px;
+}
+.promo{
+  margin:10px;
+  font-size:16px;
+  color:black;
+
+}
+
+.clock{
+   position:relative;
+   top:0px;
+   
+}
+.rise{
+   color:white;
+   border-color:white;
+}
+.pp{
+   color:white;
+   font-size:30px;
+}
+.ppp{
+   font-size:30px;
+}
+#fafa{
+	display:none;
+}
+
+@media screen and (max-width:600px)
+{
+  .present{
+      font-size:30px;
+      top:20px;
+      left:2%;
+	  right:2%;
+      
+      
+} 
+  .header-branch{
+      height:100px;
+}
+  .order {
+      font-size:20px;
+      top:-13px;
+	  display:none;
+      
+} 
+  .order a{
+     padding:1px;
+}
+.line{
+     display:flex;
+     flex-wrap:wrap;
+}  
+
+.grid-1{
+     order:2;
+     
+} 
+
+.grid-2{
+     order:1;
+     margin:0;
+} 
+.grid-3{
+     order:3;
+}
+.luck{
+   width:20%;
+   position:relative;
+   left:50px;
+}
+.container{
+     display:block;
+}
+.content-1{
+     font-size:5px;
+}
+.reach{
+     font-size:15px;
+}
+.link{
+     font-size:15px;
+}
+.content-3{
+     margin:auto;
+     text-align:center;
+     font-size:30px;
+}
+#fafa{
+	margin-top:20px;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
